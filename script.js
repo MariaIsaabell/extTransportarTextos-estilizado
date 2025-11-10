@@ -16,11 +16,11 @@ window.document.addEventListener("DOMContentLoaded", function () {
       document.querySelector("#result").innerHTML = inputText.toLowerCase();
     });
 
-  window.document
+   window.document
     .getElementById("btnPrimeiraLetraMaiuscula")
     .addEventListener("click", function () {
-      let inputText = document.querySelector("#input-text").value;
-      let resultado = inputText.charAt(0).toUpperCase() + inputText.slice(1).toLowerCase();
+      let inputText = document.querySelector("#input-text").value.toLowerCase()
+      let resultado = inputText.replaceAll(/(^[a-zA-Z]|[.]\s*[a-zA-Z])/g, ponto => ponto.toUpperCase());
       document.querySelector("#result").innerHTML = resultado;
     });
 
