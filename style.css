@@ -4,9 +4,14 @@
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
     font-size: 0.85rem;
-    color: rgb(5, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
+.logo{
+    width: 25px;
+    height: auto;
+    margin-right: -5px;
+}
 
 .container-pai {
     width: 200px;
@@ -15,11 +20,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #fdd3ce;
     border: 2px solid #333333fd;
     gap: 5px;
     padding: 10px;
-    
 }
 
 .container-button {
@@ -28,26 +32,36 @@
     justify-content: center; 
     gap: 7px; 
     margin-top: 5px;
-   
 }
 
 .btn{
-    background-color: #D9D9D9;
+    background-color: #fda89f;
     cursor: pointer;
     padding: 2px;
-    color: black;
+    color: rgb(3, 3, 3);
     height: 30px;
     border: 1px solid;
+    border-radius: 3px;
+    font-weight: 500;
+}
 
+.btn:hover {
+    background-color: #dd7070;
 }
 
 .input-text{
-    background-color: #F3F3F3;
+    background-color: #fda89f;
     border-radius: 1px;
     border: rgb(41, 39, 56);
-    border: 1px solid #333333;
+    border: 1px solid #000000;
     margin-top: -7px;
     height: 25px;
+    border-radius: 3px;
+}
+
+input::placeholder {
+  color: #000000; 
+  font-weight: 500;
 }
 
 .cabecalho-conteudo {
@@ -58,22 +72,16 @@
     padding: 4px;     
 }
 
-.logo{
-    width: 25px;
-    height: auto;
-}
-
 .result{
     width: 157.5px;
     height: 68px;
-    background-color: #F3F3F3;
-    border: 0.5px solid #333333af;
+    background-color: #fda89f;
+    border: 0.5px solid #000000;
     justify-content: start;
     padding: 5px;
     margin-top: 5px;
-}
-.result p {
-    color: black;
+    border-radius: 3px;
+    font-weight: 500;
 }
 
 /* Rodapé */
@@ -81,10 +89,18 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-weight: 500;
 }
 
 .link{
-    color: blue;
+    color: #fa5542;
+    display: flex;
+    margin-top: 6px;
+    justify-content: center;
+}
+
+.link:hover {
+    color: #be3535;
 }
 
 #btnLimpar{
