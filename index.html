@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Extensão TT</title>
+  </head>
+  <body>
+    <div class="container-pai">
+      <header class="cabecalho">
+        <div class="cabecalho-conteudo">
+          <h1 class="titulo">TRANSFORME textos</h1>
+          <img src="icons/tt-icons.png" alt="logo" class="logo" />
+        </div>
+      </header>
+
+      <div></div>
+
+      <input
+        type="text"
+        name="text"
+        id="input-text"
+        class="input-text"
+        maxlength="500"
+        placeholder="Digite o texto"
+        required
+      />
+
+      <div class="container-button">
+        <button type="button" class="btn" id="btnMaiuscula">MAIÚSCULAS</button>
+        <button type="button" class="btn" id="btnMinuscula">minúsculas</button>
+    
+        <button type="button" class="btn" id="btnPrimeiraLetraMaiuscula">Primeira Letra MAIÚSCULAS</button>
+   
+        <button type="button" class="btn" id="btnLimpar">Limpar</button>
+        <button type="button" class="btn" id="btnNegrito">Negrito</button>
+      </div>
+      
+      <div name="result" id="result" class="result">
+        <p>Resultado:</p>
+      </div>
+
+      <footer class="rodape">
+        <div>
+          <p class="rodape">Para mais opções, visite:</p>
+          <a href="https://github.com/MariaIsaabell" class="link"
+            >maria.com.br</a
+          >
+        </div>
+        <br />
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

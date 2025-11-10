@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.85rem;
+    color: rgb(5, 0, 0);
+}
+
+
+.container-pai {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #333333fd;
+    gap: 5px;
+    padding: 10px;
+    
+}
+
+.container-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 7px; 
+    margin-top: 5px;
+   
+}
+
+.btn{
+    background-color: #D9D9D9;
+    cursor: pointer;
+    padding: 2px;
+    color: black;
+    height: 30px;
+    border: 1px solid;
+
+}
+
+.input-text{
+    background-color: #F3F3F3;
+    border-radius: 1px;
+    border: rgb(41, 39, 56);
+    border: 1px solid #333333;
+    margin-top: -7px;
+    height: 25px;
+}
+
+.cabecalho-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 6px;         
+    flex-direction: row-reverse;
+    padding: 4px;     
+}
+
+.logo{
+    width: 25px;
+    height: auto;
+}
+
+.result{
+    width: 157.5px;
+    height: 68px;
+    background-color: #F3F3F3;
+    border: 0.5px solid #333333af;
+    justify-content: start;
+    padding: 5px;
+    margin-top: 5px;
+}
+.result p {
+    color: black;
+}
+
+/* Rodapé */
+.rodape{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.link{
+    color: blue;
+}
+
+#btnLimpar{
+    width: 78px;
+}
+
+#btnMinuscula {
+    width: 75px;
+}
+
+#btnNegrito{
+    width: 75px;
+}
+
+#btnPrimeiraLetraMaiuscula {
+    width: 160px;
+}
